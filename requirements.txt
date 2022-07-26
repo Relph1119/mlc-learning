@@ -24,3 +24,4 @@ torchvision==0.13.0
 tornado==6.2
 typing-extensions==4.3.0
 urllib3==1.26.10
+xgboost==1.5.2
