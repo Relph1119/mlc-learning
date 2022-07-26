@@ -100,6 +100,7 @@ def lnumpy_mlp_with_call_tir(data, w0, b0, w1, b1):
     out = lnumpy_call_tir(Lnumpy.lnumpy_linear1, (lv1, w1, b1), (1, 10), dtype="float32")
     return out
 
+
 if __name__ == '__main__':
     test_loader, class_names = get_dataset()
 

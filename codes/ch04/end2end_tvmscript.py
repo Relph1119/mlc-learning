@@ -10,7 +10,6 @@
 # This is needed for deferring annotation parsing in TVMScript
 from __future__ import annotations
 
-
 import pickle as pkl
 import matplotlib.pyplot as plt
 import numpy as np

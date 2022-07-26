@@ -31,8 +31,8 @@ def lnumpy_mm_relu(A: np.ndarray, B: np.ndarray, C: np.ndarray):
 class MyModule:
     @T.prim_func
     def mm_relu(A: T.Buffer[(128, 128), "float32"],
-             B: T.Buffer[(128, 128), "float32"],
-             C: T.Buffer[(128, 128), "float32"]):
+                B: T.Buffer[(128, 128), "float32"],
+                C: T.Buffer[(128, 128), "float32"]):
         # extra annotations for the function
         T.func_attr({"global_symbol": "mm_relu", "tir.noalias": True})
         Y = T.alloc_buffer((128, 128), dtype="float32")

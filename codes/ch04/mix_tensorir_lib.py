@@ -101,6 +101,7 @@ class MyModuleMixture:
             R.output(out)
         return out
 
+
 if __name__ == '__main__':
     test_loader, class_names = get_dataset()
 
