@@ -26,7 +26,7 @@ from tvm.script import tir as T
 def get_dataset():
     # 加载数据集
     test_data = torchvision.datasets.FashionMNIST(
-        root="data",
+        root="../data",
         train=False,
         download=True,
         transform=torchvision.transforms.ToTensor()
@@ -118,7 +118,7 @@ if __name__ == '__main__':
     img = img.reshape(1, 28, 28).numpy()
     plot_img(img, label, class_names)
 
-    mlp_params = pkl.load(open("./model/fasionmnist_mlp_params.pkl", "rb"))
+    mlp_params = pkl.load(open("../model/fasionmnist_mlp_params.pkl", "rb"))
 
     ex = relax.vm.build(MyModule, target="llvm")
     vm = relax.VirtualMachine(ex, tvm.cpu())

@@ -213,3 +213,5 @@ fabric.properties
 
 .idea/
 venv/
+tune_tmp
+data
