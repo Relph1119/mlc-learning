@@ -11,7 +11,7 @@
 
 ## 运行环境配置
 ### Python版本
-Python 3.8 Windows环境
+Python 3.7.9 Windows环境
 
 ### 运行环境配置
 安装相关的依赖包
@@ -39,5 +39,10 @@ codes------------------------------------------课程代码
 |   |   +---random_transform.py--------------------单个元张量函数的随机调度变换
 |   |   +---random_transform_search.py-------------单个元张量函数的随机变换搜索
 |   |   +---transform_signle_tensor_func.py--------变换单个元张量函数
+|   +---ch06-------------------------------------第6章课程练习代码
+|   |   +---blockbuilder_create_irmodule.py--------用BlockBuilder创建IRModule
+|   |   +---fashion_mnist_example.py---------------FashionMNIST例子
+|   |   +---pytorch_import_model.py----------------从PyTorch导入模型转成IRModule
+|   |   +---tensor_expression_create_tensorir.py---Tensor表达式创建TensorIR
 requirements.txt-------------------------------运行环境依赖包
 </pre>

@@ -215,3 +215,4 @@ fabric.properties
 venv/
 tune_tmp
 data
+notebook

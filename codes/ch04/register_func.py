@@ -18,7 +18,7 @@ import torchvision
 import tvm
 from torch import Tensor
 from tvm.script import relax as R
-from tvm.script.parser import relax
+from tvm import relax
 
 
 def get_dataset():

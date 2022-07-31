@@ -20,7 +20,7 @@ import torchvision
 import tvm
 from torch import Tensor
 from tvm.script import relax as R
-from tvm.script.parser import relax
+from tvm import relax
 from tvm.script import tir as T
 from tvm import meta_schedule as ms
 
