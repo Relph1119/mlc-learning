@@ -44,5 +44,10 @@ codes------------------------------------------课程代码
 |   |   +---fashion_mnist_example.py---------------FashionMNIST例子
 |   |   +---pytorch_import_model.py----------------从PyTorch导入模型转成IRModule
 |   |   +---tensor_expression_create_tensorir.py---Tensor表达式创建TensorIR
+|   +---ch07-------------------------------------第7章课程练习代码
+|   |   +---matrix_multiplication.py---------------优化矩阵乘法
+|   |   +---shared_memory_blocking.py--------------共享内存块
+|   |   +---tensor_add_with_gpu.py-----------------向量加法的GPU加速
+|   |   +---window_sum.py--------------------------滑动窗口求和(Window Sum Example)
 requirements.txt-------------------------------运行环境依赖包
 </pre>
