@@ -49,5 +49,10 @@ codes------------------------------------------课程代码
 |   |   +---shared_memory_blocking.py--------------共享内存块
 |   |   +---tensor_add_with_gpu.py-----------------向量加法的GPU加速
 |   |   +---window_sum.py--------------------------滑动窗口求和(Window Sum Example)
+|   +---ch08-------------------------------------第8章课程练习代码
+|   |   +---lnumpy_tmm.py--------------------------矩阵乘法
+|   |   +---matmul_block.py------------------------带有张量化计算的block
+|   |   +---matmul_blockization.py-----------------矩阵乘法的Blockization
+|   |   +---matmul_tensor_intrin.py----------------矩阵乘法的张量化
 requirements.txt-------------------------------运行环境依赖包
 </pre>
