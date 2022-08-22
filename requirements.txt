@@ -1,4 +1,4 @@
-mlc-ai-nightly==0.9.dev1957+gc164d2206
+mlc-ai-nightly==0.9.dev1958+g26d18beea
 torch
 torchvision
 matplotlib
